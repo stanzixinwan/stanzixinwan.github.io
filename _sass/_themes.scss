@@ -13,9 +13,9 @@ $doc-font-size              : 16;
 $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
-/* System typefaces — plus Plus Jakarta Sans (UI) + Source Serif 4 (body), loaded in head/custom.html */
+/* Source Serif 4 sitewide (loaded in head/custom.html); $sans-serif aliases serif for nav/UI that still references sans variables */
 $serif                      : "Source Serif 4", Georgia, "Times New Roman", Times, serif;
-$sans-serif                 : "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", "San Francisco", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$sans-serif                 : $serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* Sans serif typefaces */
@@ -39,9 +39,9 @@ $type-size-6                : 0.75em;   // ~12px
 $type-size-7                : 0.6875em; // ~11px
 $type-size-8                : 0.625em;  // ~10px
 
-/* Serif body reads more “academic”; sans headings keep navigation + titles crisp */
+/* All serif: body, headings, navigation, sidebar */
 $global-font-family         : $serif;
-$header-font-family         : $sans-serif;
+$header-font-family         : $serif;
 $caption-font-family        : $serif;
 
 /* ==========================================================================
