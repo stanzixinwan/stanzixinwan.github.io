@@ -28,6 +28,11 @@ Education
   GPA: 3.76 / 4.00, *magna cum laude*, Dean's List  
   Coursework: Machine Learning, Natural Language Processing, Linear Algebra, Statistics, Data Structures & Algorithms, Computer Systems, Operating Systems, Theory of Computation
 
+Research
+======
+- **Honors thesis**, Van Hooser Lab (advisor: Stephen D. Van Hooser): functional decoding and neural tuning dynamics in visual cortex. Manuscript in preparation. [Research](/research/)
+- **Visiting student researcher**, Shanghai Jiao Tong University (advisor: Yutong Ban): multimodal VLA training and dual-arm data infrastructure, including +18% cross-task success on InternVL-1B (8×A100).
+
 Experience
 ======
 - **Visiting Student Researcher**, Shanghai Jiao Tong University, Shanghai, China  

@@ -9,7 +9,16 @@
 
 main:
   - title: "About"
-    url: /
+    url: /about/
+
+  - title: "Research"
+    url: /research/
+
+  - title: "Portfolio"
+    url: /portfolio/
+
+  - title: "CV"
+    url: /cv/
 
   - title: "Portfolio"
     url: /portfolio/

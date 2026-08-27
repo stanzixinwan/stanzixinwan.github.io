@@ -1,17 +1,18 @@
 ---
-title: "Vision-Language-Action Policy Training"
-excerpt: "Built multimodal robot data pipelines and scaled InternVL-1B VLA training on an 8×A100 cluster at Shanghai Jiao Tong University."
+title: "DistIE: Distributed Inference Engine"
+excerpt: "Go gateway + C++ KV-cache/memory pool + Python continuous batching. A production-style LLM inference stack, not a notebook demo."
 collection: portfolio
+date: 2026-09-01
+link: https://github.com/stanzixinwan/distie
 ---
 
-As a visiting student researcher at Shanghai Jiao Tong University, I worked on data infrastructure and training for vision-language-action models in bimanual manipulation.
+[DistIE](https://github.com/stanzixinwan/distie) is a distributed LLM inference engine. The split matches production systems: Go for concurrent serving, C++ for memory and kernels, Python for orchestration.
 
 Highlights
 ======
-- Engineered a high-throughput pipeline that synchronized dual-arm joint states with 3-channel RGB video at 30 FPS.
-- Reduced I/O latency by 35% across 100+ manipulation episodes.
-- Scaled SFT and advantage-conditioned policy training for an InternVL-1B VLA model with PyTorch FSDP on 8×A100 GPUs.
-- Improved cross-task policy success rates by 18%.
-- Built a low-latency human-in-the-loop teleoperation stack for closed-loop evaluation.
+- **Go gateway:** gRPC streaming, load balancing, leaky-bucket rate limiting.
+- **C++ engine core:** block-based KV-cache and GPU memory pooling (PagedAttention-style), so allocation is not left to Python GC.
+- **Python orchestrator:** continuous batching, talking to C++ through pybind11.
+- **Serving path:** Protobuf/gRPC between nodes; Docker-oriented deploy.
 
-This work sits at the intersection of robotics systems and large-model training: collecting clean multimodal demonstrations, then turning them into policies that can be evaluated in the loop.
+Code: [github.com/stanzixinwan/distie](https://github.com/stanzixinwan/distie)

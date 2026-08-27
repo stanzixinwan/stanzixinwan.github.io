@@ -1,16 +1,18 @@
 ---
-title: "Cross-Domain Text-to-SQL"
-excerpt: "Fine-tuned encoder-decoder models with QLoRA and a FAISS RAG stack, reaching 82% execution accuracy on Spider."
+title: "Vision-Language-Action Policy Training"
+excerpt: "+18% cross-task VLA success on InternVL-1B; 35% lower I/O latency across 100+ dual-arm episodes (8×A100, SJTU)."
 collection: portfolio
+date: 2026-08-01
 ---
 
-This project is an end-to-end natural-language SQL generation system for complex multi-table schemas.
+Visiting student researcher at Shanghai Jiao Tong University (advisor: Yutong Ban). Data infrastructure and training for vision-language-action models in bimanual manipulation.
 
 Highlights
 ======
-- Fine-tuned encoder-decoder models with QLoRA on the Spider benchmark.
-- Reached 82% execution accuracy on unseen, complex multi-table relational schemas.
-- Built a schema-aware RAG pipeline with FAISS vector indexing.
-- Containerized inference with Docker and served it through asynchronous FastAPI endpoints.
+- Synchronized dual-arm joint states with 3-channel RGB at 30 FPS.
+- 35% lower I/O latency across 100+ manipulation episodes.
+- Scaled SFT and advantage-conditioned training for InternVL-1B with PyTorch FSDP on 8×A100 GPUs.
+- +18% cross-task policy success.
+- Human-in-the-loop teleoperation for closed-loop evaluation.
 
-The goal was not only higher accuracy, but a reproducible serving path: parameter-efficient fine-tuning, retrieval over schema context, then a packaged API for inference.
+More context is on the [Research](/research/) page.

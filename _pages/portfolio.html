@@ -7,8 +7,9 @@ author_profile: true
 
 {% include base_path %}
 
+Systems and research first, then applied ML. DistIE and lab work are the pieces I would send a recruiter or a PI.
 
-{% for post in site.portfolio %}
+{% assign items = site.portfolio | sort: "date" | reverse %}
+{% for post in items %}
   {% include archive-single.html %}
 {% endfor %}
-
