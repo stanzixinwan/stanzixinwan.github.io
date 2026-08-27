@@ -7,30 +7,30 @@ redirect_from:
   - /about.html
 ---
 
-I am a Computer Science and Biology student at Brandeis University with a strong interest in machine learning, scientific computing, and data-intensive research systems. My work sits at the intersection of software engineering and computational science, where I enjoy turning large, messy datasets into reliable pipelines, usable APIs, and faster analysis workflows.
+I am an M.S. student in Computer Science at Columbia University, and I recently completed a B.S. in Computer Science and Biology at Brandeis University (*magna cum laude*). My work sits at the intersection of machine learning, robotic manipulation, and research software: I like turning messy multimodal data into reliable pipelines, training systems, and tools that other people can actually use.
 
-I have worked on computational neuroscience, computational biology, and machine learning engineering projects across research labs and industry. Recently, I have been building high-performance APIs for 100GB+ 2-photon microscopy data, optimizing ETL workflows for single-cell RNA sequencing data, and developing tools for benchmarking deep learning models on high-dimensional sequence tasks.
+Recently I have been a visiting student researcher at Shanghai Jiao Tong University, building high-throughput data pipelines and scaling vision-language-action policy training. Before that I spent two years in the Van Hooser Lab, where I wrote an honors thesis on functional decoding in visual cortex and built scientific compute workflows for terabyte-scale 2-photon imaging data.
 
 Interests
 ======
-- Machine learning and scientific computing
-- Research software engineering for large-scale data
-- Data pipelines, numerical optimization, and performance tuning
-- Applied AI for biology and neuroscience
+- Machine learning systems and research software
+- Vision-language-action models and robotic manipulation
+- Retrieval-augmented generation and LLM applications
+- Large-scale scientific data pipelines
 
 Selected Experience
 ======
-- **Computational Neuroscience Research, Van Hooser Lab**  
-  Designed high-performance scientific computing APIs for large microscopy datasets, improving ROI extraction speed and reducing end-to-end latency.
-- **Machine Learning and Data Engineering Intern, Noah AI**  
-  Built ETL pipelines for high-dimensional scRNA-sequencing data and optimized sparse matrix operations to reduce memory usage and accelerate downstream workflows.
-- **Computational Biology Research, Kadener Lab**  
-  Implemented gene regulatory network inference and clustering workflows in R using SCENIC and Seurat for single-cell analysis.
+- **Visiting Student Researcher, Shanghai Jiao Tong University**  
+  Built a multimodal data pipeline for dual-arm robot demonstrations and scaled SFT / advantage-conditioned training for an InternVL-1B VLA model on an 8×A100 cluster.
+- **Machine Learning Research Assistant, Van Hooser Lab**  
+  Authored an honors thesis on neural tuning dynamics and built automated Python/MATLAB pipelines for 2-photon calcium imaging, with CI/CD for open-source lab tools.
+- **Software Engineer Intern, Noah AI**  
+  Designed a hybrid RAG stack over medical literature and shipped FastAPI / Next.js services with schema-validated LLM agent workflows.
 
 Technical Strengths
 ======
-- Languages: Python, Java, C, C#, R, MATLAB, Bash
-- ML and data: PyTorch, NumPy, Pandas, scikit-learn, SciPy
-- Tools: Git, Linux, shell scripting
+- Languages: Python, Java, C/C++/C#, JavaScript, SQL, Go
+- Frameworks: PyTorch, FastAPI, Next.js, React, Prisma
+- Infra: GitHub Actions, Linux, Docker, PostgreSQL, FAISS
 
-You can find a fuller summary of my experience on the [CV page](/cv/) and selected work on the [Portfolio page](/portfolio/).
+A full summary is on the [CV page](/cv/), and selected work is on the [Portfolio page](/portfolio/). You can also [download a PDF resume](/files/Resume_Zixin_Wan.pdf).

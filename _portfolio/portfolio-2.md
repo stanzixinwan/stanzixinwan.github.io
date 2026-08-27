@@ -1,15 +1,16 @@
 ---
-title: "Deep Learning Benchmarking and Optimization"
-excerpt: "Created a benchmarking framework for sequence classification, comparing deep learning models with statistical baselines."
+title: "Cross-Domain Text-to-SQL"
+excerpt: "Fine-tuned encoder-decoder models with QLoRA and a FAISS RAG stack, reaching 82% execution accuracy on Spider."
 collection: portfolio
 ---
 
-This academic project focused on evaluating how different modeling approaches perform on high-dimensional sequence classification tasks.
+This project is an end-to-end natural-language SQL generation system for complex multi-table schemas.
 
 Highlights
 ======
-- Built a benchmarking framework for comparing Bi-LSTM models, PyTorch neural networks, and statistical baselines.
-- Organized experiments so results could be compared more consistently across methods.
-- Used the project to study tradeoffs between model complexity, accuracy, and efficiency.
+- Fine-tuned encoder-decoder models with QLoRA on the Spider benchmark.
+- Reached 82% execution accuracy on unseen, complex multi-table relational schemas.
+- Built a schema-aware RAG pipeline with FAISS vector indexing.
+- Containerized inference with Docker and served it through asynchronous FastAPI endpoints.
 
-The project strengthened my understanding of experimental design for machine learning systems and how to turn model evaluation into a reproducible engineering workflow.
+The goal was not only higher accuracy, but a reproducible serving path: parameter-efficient fine-tuning, retrieval over schema context, then a packaged API for inference.

@@ -1,15 +1,16 @@
 ---
-title: "2D Isometric Simulation Engine"
-excerpt: "Developed a scalable simulation architecture using an Entity-Component System, decision trees, and state machines."
+title: "LLM-Powered Nutrition Tracker"
+excerpt: "An AI agent platform that turns unstructured dietary text into validated macronutrient records, with PostgreSQL, Prisma, and 90%+ test coverage."
 collection: portfolio
 ---
 
-This independent game project explored how to build a flexible simulation engine for a 2D isometric survival environment.
+This full-stack project turns messy food logs into structured nutrition data using LLM agents and a typed backend.
 
 Highlights
 ======
-- Designed a scalable Entity-Component System to manage units, world state, and interactions.
-- Implemented decision trees and state machines for behavior control.
-- Structured the project around extensibility so new systems and interactions could be added without tightly coupling logic.
+- Orchestrated agents that parse unstructured text and dietary inputs into validated macronutrient structures.
+- Enforced structured output parsers and strict JSON schemas.
+- Designed a high-concurrency PostgreSQL schema managed by Prisma ORM.
+- Built CI/CD with Vitest and GitHub Actions, keeping 90%+ code coverage.
 
-This work reflects my interest in systems design, simulation architecture, and building software that remains manageable as complexity grows.
+The engineering focus was reliability: schema-validated LLM outputs, a durable relational store, and automated tests around the agent and API layers.

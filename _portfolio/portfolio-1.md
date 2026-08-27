@@ -1,16 +1,17 @@
 ---
-title: "Scientific Computing APIs for 2-Photon Data"
-excerpt: "Built high-performance APIs for large-scale microscopy datasets, improving ROI extraction speed and reducing analysis latency."
+title: "Vision-Language-Action Policy Training"
+excerpt: "Built multimodal robot data pipelines and scaled InternVL-1B VLA training on an 8×A100 cluster at Shanghai Jiao Tong University."
 collection: portfolio
 ---
 
-At the Van Hooser Lab at Brandeis University, I worked on scientific computing infrastructure for large 2-photon microscopy datasets.
+As a visiting student researcher at Shanghai Jiao Tong University, I worked on data infrastructure and training for vision-language-action models in bimanual manipulation.
 
 Highlights
 ======
-- Designed APIs for processing 100GB+ datasets in a more scalable and maintainable way.
-- Improved ROI extraction performance by about 90 percent.
-- Helped reduce end-to-end latency in downstream analysis workflows.
-- Contributed data schemas to the Neural Data Interface ecosystem.
+- Engineered a high-throughput pipeline that synchronized dual-arm joint states with 3-channel RGB video at 30 FPS.
+- Reduced I/O latency by 35% across 100+ manipulation episodes.
+- Scaled SFT and advantage-conditioned policy training for an InternVL-1B VLA model with PyTorch FSDP on 8×A100 GPUs.
+- Improved cross-task policy success rates by 18%.
+- Built a low-latency human-in-the-loop teleoperation stack for closed-loop evaluation.
 
-This project reflects my interest in high-performance research software and building tools that make large scientific datasets easier to analyze.
+This work sits at the intersection of robotics systems and large-model training: collecting clean multimodal demonstrations, then turning them into policies that can be evaluated in the loop.
