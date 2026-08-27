@@ -52,6 +52,9 @@ Experience
 
 Projects
 ======
+- **DistIE: Distributed Inference Engine** · Go, C++, Python, gRPC, pybind11  
+  Building a multi-node LLM inference stack: a Go gateway for concurrent streaming requests, a C++ core for block-based KV-cache and GPU memory pooling, and Python orchestration for continuous batching. [GitHub](https://github.com/stanzixinwan/distie)
+
 - **Cross-Domain Text-to-SQL System** · PyTorch, Transformers, LoRA/QLoRA, FAISS, Docker, FastAPI  
   Fine-tuned encoder-decoder models with QLoRA on the Spider benchmark, reaching 82% execution accuracy on unseen multi-table schemas. Built a schema-aware RAG pipeline with FAISS and containerized inference behind asynchronous FastAPI endpoints.
 
