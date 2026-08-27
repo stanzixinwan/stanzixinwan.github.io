@@ -13,8 +13,8 @@ $doc-font-size              : 16;
 $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
-/* Source Serif 4 sitewide (loaded in head/custom.html); $sans-serif aliases serif for nav/UI that still references sans variables */
-$serif                      : "Source Serif 4", Georgia, "Times New Roman", Times, serif;
+/* EB Garamond sitewide (loaded in head/custom.html); $sans-serif aliases serif for nav/UI that still references sans variables */
+$serif                      : "EB Garamond", Garamond, "Palatino Linotype", Palatino, "Times New Roman", Times, serif;
 $sans-serif                 : $serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 

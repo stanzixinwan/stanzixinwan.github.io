@@ -7,9 +7,18 @@ redirect_from:
   - /about.html
 ---
 
-I am an M.S. student in Computer Science at Columbia University, and I recently completed a B.S. in Computer Science and Biology at Brandeis University (*magna cum laude*). My work sits at the intersection of machine learning, robotic manipulation, and research software: I like turning messy multimodal data into reliable pipelines, training systems, and tools that other people can actually use.
+I am an M.S. student in Computer Science at Columbia University, and I recently completed a B.S. in Computer Science and Biology at Brandeis University. My work sits at the intersection of machine learning, robotics, and research software: I like turning messy multimodal data into reliable pipelines, training systems, and tools that other people can actually use.
 
 Recently I have been a visiting student researcher at Shanghai Jiao Tong University, building high-throughput data pipelines and scaling vision-language-action policy training. Before that I spent two years in the Van Hooser Lab, where I wrote an honors thesis on functional decoding in visual cortex and built scientific compute workflows for terabyte-scale 2-photon imaging data.
+
+
+Education
+======
+- **Columbia University**, New York, NY  
+  M.S. in Computer Science, Aug 2026 – Dec 2027 (expected)
+- **Brandeis University**, Waltham, MA  
+  B.S. in Computer Science and Biology, Aug 2022 – May 2026  
+  *magna cum laude*
 
 Interests
 ======
@@ -17,15 +26,6 @@ Interests
 - Vision-language-action models and robotic manipulation
 - Retrieval-augmented generation and LLM applications
 - Large-scale scientific data pipelines
-
-Selected Experience
-======
-- **Visiting Student Researcher, Shanghai Jiao Tong University**  
-  Built a multimodal data pipeline for dual-arm robot demonstrations and scaled SFT / advantage-conditioned training for an InternVL-1B VLA model on an 8×A100 cluster.
-- **Machine Learning Research Assistant, Van Hooser Lab**  
-  Authored an honors thesis on neural tuning dynamics and built automated Python/MATLAB pipelines for 2-photon calcium imaging, with CI/CD for open-source lab tools.
-- **Software Engineer Intern, Noah AI**  
-  Designed a hybrid RAG stack over medical literature and shipped FastAPI / Next.js services with schema-validated LLM agent workflows.
 
 Technical Strengths
 ======
